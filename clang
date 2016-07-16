@@ -19,3 +19,9 @@
         "-isystem",  "/home/tony-pc/catkin_ws/src/camera_model/include/",
     ]
 }
+
+
+	{ "keys": ["alt+d"], "command": "move", "args": {"by": "characters", "forward": false} },
+	{ "keys": ["alt+l"], "command": "move", "args": {"by": "characters", "forward": true} },
+	{ "keys": ["alt+k"], "command": "move", "args": {"by": "lines", "forward": false} },
+	{ "keys": ["alt+j"], "command": "move", "args": {"by": "lines", "forward": true} },
