@@ -145,3 +145,8 @@ alias remotenuc='export ROS_MASTER_URI=http://10.42.0.93:11311'
 alias gitdebug='git add .;git commit -m "fix small debugs";git push origin master'
 alias remote='export ROS_MASTER_URI=http://192.168.1.125:11311'
 alias remote2='export ROS_MASTER_URI=http://192.168.1.124:11311'
+
+
+alias cpumax="sudo cpupower frequency-set -g performance"
+alias cpufreq="cpufreq-info"
+
